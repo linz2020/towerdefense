@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/startbg.png</file>
+        <file>sounds/bgm.mp3</file>
+        <file>images/ground.png</file>
+        <file>images/house.png</file>
+        <file>images/gamebg.png</file>
+        <file>images/towerbase.png</file>
+        <file>images/icecream.png</file>
+        <file>images/enemy1.png</file>
+        <file>images/enemy2.png</file>
+        <file>images/enemy3.png</file>
+        <file>images/enemy4.png</file>
+        <file>images/enemy5.png</file>
+    </qresource>
+</RCC>
