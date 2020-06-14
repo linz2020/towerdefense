@@ -16,7 +16,7 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     new_window *new_win;
-
+    //如果报错，先上面将这行注释掉，构建一次，再还原，重新构建一次即可
 protected:
     void paintEvent(QPaintEvent *);
 
