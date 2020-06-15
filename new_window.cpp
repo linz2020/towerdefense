@@ -69,10 +69,10 @@ new_window::new_window(int level):level(level)
 
         case 3:
         {
-            CoorStr* Waypointarr1[] = {new CoorStr(480,360), new CoorStr(320,360),
-                                       new CoorStr(320,0),new CoorStr(icecoor->x, icecoor->y)};
-            CoorStr* Waypointarr2[] = {new CoorStr(480,360), new CoorStr(640,360),
-                                       new CoorStr(640,0), new CoorStr(icecoor->x, icecoor->y)};
+            CoorStr* Waypointarr1[] = {new CoorStr(440,320), new CoorStr(280,320),
+                                       new CoorStr(280,0),new CoorStr(icecoor->x, icecoor->y)};
+            CoorStr* Waypointarr2[] = {new CoorStr(440,320), new CoorStr(600,320),
+                                       new CoorStr(600,0), new CoorStr(icecoor->x, icecoor->y)};
             CoorStr stc[] = {CoorStr(440,640)};
             int PathLength[] = {sizeof(Waypointarr1)/sizeof(CoorStr*), sizeof(Waypointarr2)/sizeof(CoorStr*)};
             EnemyRoute(Waypointarr1,Waypointarr2,stc,PathLength);
@@ -99,7 +99,7 @@ new_window::new_window(int level):level(level)
 
                 if (life <= 0)
                     loselb->show();
-                    this->close();
+
                 break;
             }
         update();   //不要漏掉

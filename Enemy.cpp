@@ -2,8 +2,7 @@
 #include <QPoint>
 #include <QVector>
 #include <QDebug>
-Enemy::Enemy(CoorStr **point,int arrlen,int x,int y,int id):
-    mx(x),my(y),mid(id)
+Enemy::Enemy(CoorStr **point,int arrlen,int x,int y,int id):mx(x),my(y),mid(id)
 {
     for(int i=0;i<arrlen;i++)
         Waypoint.push_back(point[i]);
