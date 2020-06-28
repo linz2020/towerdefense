@@ -1,5 +1,5 @@
 #include "new_window.h"
-#include "ui_new_window.h"
+//#include "ui_new_window.h"
 #include "mainwindow.h"
 #include <QPainter>
 #include <QTimer>
