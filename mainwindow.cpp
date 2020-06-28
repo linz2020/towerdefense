@@ -35,10 +35,3 @@ void MainWindow::on_pushButton_2_clicked()
     new_win->setWindowTitle("第二关");
     new_win->show();
 }
-
-void MainWindow::on_pushButton_3_clicked()
-{
-    new_win = new new_window(3);
-    new_win->setWindowTitle("第三关");
-    new_win->show();
-}

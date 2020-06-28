@@ -17,18 +17,21 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     Enemy.cpp \
+    choice.cpp \
     main.cpp \
     mainwindow.cpp \
-    new_window.cpp
+    new_window.cpp \
+    tower.cpp
 
 HEADERS += \
     Enemy.h \
+    choice.h \
     mainwindow.h \
-    new_window.h
+    new_window.h \
+    tower.h
 
 FORMS += \
-    mainwindow.ui \
-    new_window.ui
+    mainwindow.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

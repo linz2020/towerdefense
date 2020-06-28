@@ -6,7 +6,10 @@
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
+namespace Ui {class new_window;}
 QT_END_NAMESPACE
+using namespace std;
+class new_window;//报错的解决方法
 
 class MainWindow : public QMainWindow
 {
@@ -16,13 +19,11 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
     new_window *new_win;
-    //如果报错，先上面将这行注释掉，构建一次，再还原，重新构建一次即可
 protected:
     void paintEvent(QPaintEvent *);
 
 
 private slots:
-    void on_pushButton_3_clicked();
 
     void on_pushButton_clicked();
 

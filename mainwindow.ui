@@ -46,8 +46,8 @@ color: rgb(85, 170, 255);</string>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>160</x>
-      <y>300</y>
+      <x>210</x>
+      <y>290</y>
       <width>93</width>
       <height>51</height>
      </rect>
@@ -68,8 +68,8 @@ color: rgb(85, 170, 255);</string>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>300</y>
+      <x>430</x>
+      <y>290</y>
       <width>93</width>
       <height>51</height>
      </rect>
@@ -85,28 +85,6 @@ color: rgb(85, 170, 255);</string>
     </property>
     <property name="text">
      <string>第二关</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>480</x>
-      <y>300</y>
-      <width>93</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>华文琥珀</family>
-      <pointsize>12</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color:rgb(85, 85, 255)</string>
-    </property>
-    <property name="text">
-     <string>第三关</string>
     </property>
    </widget>
   </widget>

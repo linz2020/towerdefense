@@ -1,8 +1,6 @@
 #ifndef ENEMY_H
 #define ENEMY_H
 
-//#include <QObject>
-#include <QPoint>
 #include <QPixmap>
 #include <QPainter>
 #include <QVector>
@@ -15,29 +13,23 @@ struct CoorStr
 };
 //QPoint搞出bug了...
 
-class Enemy// : public QObject
+class Enemy
 {
-    //Q_OBJECT
 public:
-    Enemy(CoorStr **point,int arrlen,int x,int y,int id);
-    bool Move();
-
-    int getX() const;
-    int getY() const;
-    int getID() const;
-    int getHP() const;
-    void setHP(int);
-    QString getImgPath() const;
-private:
-    QVector<CoorStr*> Waypoint;  //小怪兽路径点数组
     //monster
-    int mx, my;
+    int mx;
+    int my;
     int mid;
+    const int mwidth=80;
+    const int mheight=80;
     int HP;
-    int speed =10;//每次移动的长度
+    int speed;//每次移动的长度
     QString ImgPath;
-//signals:
+    QVector<CoorStr*> Waypoint;  //小怪兽路径点数组
 
+    Enemy(CoorStr **point,int arrlen,int x,int y,int id);
+    void setHP(int);
+    bool Move();//小怪兽移动
 };
 
 #endif // ENEMY_H

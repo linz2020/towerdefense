@@ -3,7 +3,6 @@
         <file>images/startbg.png</file>
         <file>sounds/bgm.mp3</file>
         <file>images/ground.png</file>
-        <file>images/house.png</file>
         <file>images/gamebg.png</file>
         <file>images/towerbase.png</file>
         <file>images/icecream.png</file>
@@ -12,5 +11,17 @@
         <file>images/enemy3.png</file>
         <file>images/enemy4.png</file>
         <file>images/enemy5.png</file>
+        <file>sounds/beattacked.wav</file>
+        <file>images/common1.png</file>
+        <file>images/common2.png</file>
+        <file>images/firecannon.png</file>
+        <file>images/lightcannon.png</file>
+        <file>images/choice.png</file>
+        <file>images/bullet1.png</file>
+        <file>images/bullet2.png</file>
+        <file>images/bullet3.png</file>
+        <file>images/bullet4.png</file>
+        <file>sounds/winning.wav</file>
+        <file>sounds/losing2.wav</file>
     </qresource>
 </RCC>
